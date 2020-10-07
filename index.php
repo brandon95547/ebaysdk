@@ -95,7 +95,7 @@ if($listings) {
 
     $price = $item['sellingStatus'][0]['currentPrice'][0]['__value__'];
 
-    echo '<tr><td>' . $count . '</td><td>' . $item['title'][0] . '</td><td style="color: green">$' . $price . '</td></tr>';
+    echo '<tr><td>' . $count . '</td><td>' . $item['title'][0] . '</td><td>' . $item['itemId'][0] . '</td><td style="color: green">$' . $price . '</td></tr>';
 
     $count++;
   }
